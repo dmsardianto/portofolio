@@ -61,17 +61,6 @@ h2 {
   align-items: center;
 }
 
-.photo-placeholder {
-  background: #ccc;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9em;
-  color: #555;
-}
-
 .exp-card {
   background: #fff;
   margin: 1em 0;
@@ -149,12 +138,12 @@ footer i {
 .photo-placeholder {
   width: 150px;
   height: 150px;
+  background: #ccc;
   border-radius: 8px;  /* Sudut sedikit lengkung */
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ccc; /* Untuk fallback kalau gambar belum muncul */
 }
 
 .photo-placeholder img {
