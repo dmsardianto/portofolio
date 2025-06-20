@@ -149,11 +149,12 @@ footer i {
 .photo-placeholder {
   width: 150px;
   height: 150px;
+  border-radius: 8px;  /* Sudut sedikit lengkung */
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ccc; /* Jika gambar tidak ada, tetap tampil abu-abu */
+  background: #ccc; /* Untuk fallback kalau gambar belum muncul */
 }
 
 .photo-placeholder img {
